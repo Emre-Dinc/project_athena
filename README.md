@@ -103,6 +103,8 @@ You can leverage Obsidian’s graph view, backlinks, and plugins to build a powe
 
 ![Athena Obsidian Demo](assets/athena_obsidian_demo.gif)
 
+
+
 ### Search and Summarize Papers
 
 ```python
