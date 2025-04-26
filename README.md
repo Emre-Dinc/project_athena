@@ -78,6 +78,9 @@ MILVUS_HOST=localhost
 MILVUS_PORT=19530
 MILVUS_COLLECTION=project_athena
 
+# Exa Search Settings
+EXA_MAX_RESULTS=10
+
 # Obsidian Configuration
 OBSIDIAN_VAULT_PATH=/path/to/your/obsidian/vault
 

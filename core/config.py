@@ -78,6 +78,7 @@ class Config:
             "openai_model": os.getenv("OPENAI_MODEL", "gpt-4.1-mini"),
             "openai_temperature": float(os.getenv("OPENAI_TEMPERATURE", "0.3")),
             "openai_max_tokens": int(os.getenv("OPENAI_MAX_TOKENS", "32000")),
+            "exa_max_results": int(os.getenv("EXA_MAX_RESULTS", "10")),
         }
 
         return config

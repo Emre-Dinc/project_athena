@@ -19,7 +19,7 @@ logger = logging.getLogger(__name__)
 @dataclass
 class SearchParams:
     query: str
-    max_results: int = 10
+    max_results: int = config.get_system_config("exa_max_results")
     start_year: Optional[int] = None
     end_year: Optional[int] = None
     domains: Optional[List[str]] = None
@@ -72,7 +72,7 @@ class ExaScraper:
             "offset": offset,
             "livecrawl": params.live_crawl,
             "includeDomains": params.domains or ["arxiv.org"],
-            "startYear": params.start_year or 2000,
+            "startYear": params.start_year,
             "endYear": params.end_year or datetime.now().year,
         }
 
