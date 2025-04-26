@@ -101,6 +101,7 @@ You can leverage Obsidian’s graph view, backlinks, and plugins to build a powe
 ## Basic Usage
 ## Example: Athena Injected Output in Obsidian
 
+![Athena Obsidian Demo](assets/athena_obsidian_demo.gif)
 
 ### Search and Summarize Papers
 
