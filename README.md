@@ -158,8 +158,8 @@ The core search, summarization, concept extraction, and vector storage systems a
 - Batch ingestion of large research corpora
 - Interactive command-line interface (CLI)
 - GUI dashboard for querying and exploration
-- **Deep Research Mode**: Intelligent expansion of searches by creating new queries based on the concepts extracted from initial results, allowing more comprehensive and connected research paths.
-- **Zotero Connector Integration**: Enable optional export and synchronization of metadata, summaries, and notes directly into Zotero libraries using the Zotero Connector API.
+- **Deep Research Mode**: Expansion of searches by creating new queries based on the concepts extracted from initial results, allowing more comprehensive research paths.
+- **Zotero Connector Integration**: Enable export and synchronization of metadata, summaries, and notes directly into Zotero libraries using the Zotero Connector API.
 
 ## License
 
