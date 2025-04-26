@@ -161,6 +161,3 @@ The core search, summarization, concept extraction, and vector storage systems a
 - **Deep Research Mode**: Expansion of searches by creating new queries based on the concepts extracted from initial results, allowing more comprehensive research paths.
 - **Zotero Connector Integration**: Enable export and synchronization of metadata, summaries, and notes directly into Zotero libraries using the Zotero Connector API.
 
-## License
-
-MIT License
