@@ -88,6 +88,16 @@ LOG_LEVEL=INFO  # DEBUG, INFO, WARNING, ERROR, CRITICAL
 
 > **Note:** You can easily change the OpenAI model, temperature, and max tokens used for summarization by modifying the corresponding values in your `.env` file or adjusting them directly in `config.py`.
 
+## Obsidian Integration
+
+Project Athena can automatically generate structured markdown notes for each processed research paper.  
+By setting your `OBSIDIAN_VAULT_PATH` in the `.env` file, Athena will inject summaries, extracted concepts, and metadata directly into your Obsidian vault.
+
+Each note is generated in markdown (.md) format, making it immediately readable, searchable, and linkable inside Obsidian.  
+You can leverage Obsidian’s graph view, backlinks, and plugins to build a powerful research knowledge base.
+
+> **Important:**  
+> Ensure that your `OBSIDIAN_VAULT_PATH` points to an existing Obsidian vault, and that Obsidian is set to monitor that directory.
 ## Basic Usage
 
 ### Search and Summarize Papers
