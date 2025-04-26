@@ -99,7 +99,9 @@ You can leverage Obsidian’s graph view, backlinks, and plugins to build a powe
 > **Important:**  
 > Ensure that your `OBSIDIAN_VAULT_PATH` points to an existing Obsidian vault, and that Obsidian is set to monitor that directory.
 ## Basic Usage
+## Example: Athena Injected Output in Obsidian
 
+![Athena Obsidian Demo](assets/athena_obsidian_demo.gif)
 ### Search and Summarize Papers
 
 ```python
