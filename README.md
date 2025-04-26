@@ -103,7 +103,13 @@ You can leverage Obsidian’s graph view, backlinks, and plugins to build a powe
 
 ![Athena Obsidian Demo](assets/athena_obsidian_demo.gif)
 
+## Custom Templates for Obsidian Notes
 
+Athena allows you to craft your own markdown templates for injected notes.  
+The `obsidian_injector.py` module defines a  system where you can modify the layout, headers, and content structure of your generated Obsidian notes.
+
+
+> **Example:** Check the `obsidian_injector.py` file for an example and edit the template function to fit your needs.
 
 ### Search and Summarize Papers
 
