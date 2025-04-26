@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.log
+
+# Virtual environments
+venv/
+.venv/
+
+# Environment variables
+.env
+.env.*
+
+# IDE configs
+.idea/
+.vscode/
+
+# Jupyter notebooks (if any)
+.ipynb_checkpoints/
+
+# Data output
+data/
+
+
+# OS generated files
+.DS_Store
+Thumbs.db
+# PyCharm-specific
+.idea/
+*.iml
+*.ipr
+*.iws
+
+volumes/

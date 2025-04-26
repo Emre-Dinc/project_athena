@@ -1,0 +1,30 @@
+# Core dependencies
+requests==2.32.3
+python-dotenv==1.1.0
+pydantic==2.11.3
+PyYAML==6.0.2
+
+# PDF extraction
+PyMuPDF==1.25.5
+pdfplumber==0.11.6
+
+# Vector Database
+pymilvus==2.5.7
+
+# AI APIs
+openai==1.76.0
+
+# Data processing and embeddings
+numpy==2.2.5
+scipy==1.15.2
+pandas==2.2.3
+scikit-learn==1.6.1
+sentence-transformers==4.1.0
+
+# Logging and utilities
+tqdm==4.67.1
+colorlog==6.9.0
+
+# Testing
+pytest==8.3.5
+pytest-cov==6.1.1
